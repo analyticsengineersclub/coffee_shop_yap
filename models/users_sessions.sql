@@ -75,5 +75,3 @@ select
     on users_stitched.id = browsing_session_ids.id
   join session_times
     on browsing_session_ids.session_id = session_times.session_id
-
-
